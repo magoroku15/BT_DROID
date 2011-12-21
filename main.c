@@ -42,7 +42,7 @@ CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
 #include <stdlib.h>
 #define USE_AND_OR /* To enable AND_OR mask setting */
 #include<ports.h>
-#include<pps.h>
+//#include<pps.h>
 #include<timer.h>
 #include<outcompare.h>
 
@@ -632,7 +632,7 @@ int main ( void )
 	mPORTBOutputConfig(0x10);
 
 	// OC 1
-	PPSOutput(PPS_RP4, PPS_OC1);
+	// PPSOutput(PPS_RP4, PPS_OC1); hideo
 
 	//Enable Interrupt
 	SetPriorityIntOC1(4);

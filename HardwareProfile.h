@@ -45,8 +45,8 @@
 #define DEMO_TIMEOUT_LIMIT  0xF000
 
 #if defined(__PIC24F__) || defined(__PIC24H__)
-    #include <p24fxxxx.h>
-    #include <uart2.h>
+//    #include <p24fxxxx.h>
+//    #include <uart2.h>
 #else
     #include <p32xxxx.h>
     #include <plib.h>
