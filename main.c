@@ -648,6 +648,9 @@ int main ( void )
     {
         BTClientTasks();
 
+	// Mark for debug
+        // mPORTAWrite(0x1);mPORTAWrite(0x0);
+
         // Maintain USB Host State
         USBHostTasks();
 

@@ -83,7 +83,7 @@ Change History
 #endif
 
 #ifndef USB_NUM_COMMAND_TRIES
-    #define USB_NUM_COMMAND_TRIES       3   // During enumeration, define how many
+    #define USB_NUM_COMMAND_TRIES       5   // During enumeration, define how many
                                             // times each command will be tried before
                                             // giving up and resetting the device.
 #endif
@@ -94,7 +94,7 @@ Change History
 #endif
 
 #ifndef USB_NUM_ENUMERATION_TRIES
-    #define USB_NUM_ENUMERATION_TRIES   3   // Define how many times the host will try
+    #define USB_NUM_ENUMERATION_TRIES   5   // Define how many times the host will try
                                             // to enumerate the device before giving
                                             // up and setting the state to DETACHED.
 #endif
