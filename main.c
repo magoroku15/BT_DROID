@@ -654,7 +654,7 @@ int main ( void )
         // Maintain USB Host State
         USBHostTasks();
 
-		DelayMs(2);
+		DelayMs(1);
     }
 
     return 0;
